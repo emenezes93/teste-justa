@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: justa
+  namespace: justa-teste
+spec:
+  containers:
+  - name: justa-container
+    image: fellipetenorio/go-helloworld:v1.0.0
